@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+	background: pink;
+	overflow: hidden;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 100vh;
+	
+}
+.one{
+	color: white;
+	font-size: 150px;
+	font-family:sans-serif;
+	position: relative;
+	left: 105px;
+	top: -30px;
+	font-weight: 900;
+	margin-left: -500px;
+}
+.ball{
+	width: 105px;
+	height: 105px;
+	background: rgb(233, 123, 160);
+	border-radius: 50%;
+	border: 10px solid #D1567E;
+	margin-right: -500px;
+	margin-left: 30px;
+	position: relative;
+	overflow: hidden;
+	left: 80px;
+	top: -30px;
+}
+/*.ball:before{
+	content: '';
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: yellow;
+}*/
+.stripes{
+	width: 170px;
+	height: 170px;
+	background: transparent;
+	border: 10px solid #D1567E;
+	border-radius: 50%;
+	margin: -10px -110px;
+}
+.stripes::before{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: 10px solid #D1567E;
+	border-radius: 50%;
+	margin: -130px 30px;
+}
+.stripes::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: 10px solid #D1567E;
+	border-radius: 50%;
+	margin: 130px 90px;
+}
+.thanks{
+	color: white;
+	font-size: 100px;
+	font-family: 'Lobster', cursive;
+	margin-bottom: 500px;
+	margin-left: -400px;
+}
+.followers{
+	color: white;
+	font-size: 100px;
+	font-family: 'Lobster', cursive;
+	position: relative;
+	top: 140px;
+	left: 300px;
+}
